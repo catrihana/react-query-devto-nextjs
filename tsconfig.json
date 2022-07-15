@@ -1,5 +1,35 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
+        "paths": {
+            "@components/*": [
+                "components/*"
+            ],
+            "@contexts/*": [
+                "contexts/*"
+            ],
+            "@models/*": [
+                "models/*"
+            ],
+            "@redux/*": [
+                "redux/*"
+            ],
+            "@styles/*": [
+                "styles/*"
+            ],
+            "@utils/*": [
+                "utils/*"
+            ],
+            "@services/*": [
+                "pages/api/services/*"
+            ],
+            "@helpers/*": [
+                "pages/api/helpers/*"
+            ],
+            "@api/*": [
+                "pages/api/*"
+            ]
+        },
     "target": "es5",
     "lib": [
       "dom",
@@ -17,6 +47,7 @@
     "resolveJsonModule": true,
     "moduleResolution": "node",
     "isolatedModules": true,
+    "allowSyntheticDefaultImports" : true,
     "jsx": "preserve"
   },
   "include": [
