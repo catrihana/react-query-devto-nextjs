@@ -10,7 +10,7 @@ const TodoList = ({ data }: { data: IItem[] }) => {
             BLOG
           </div>
         </div>
-        <div className="flex flex-wrap flex-row">
+        <div>
           {data
             ? data.map((item) => <Card data={item} key={item.id} />)
             : "Failed fetch data"}
