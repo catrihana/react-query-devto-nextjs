@@ -7,7 +7,7 @@ const TodoList = ({ data }: { data: IItem[] }) => {
       <>
         <div className="m-2 text-4xl font-bold flex flex-col">
           <div className="m-2 text-2xl text-stone-700 font-bold text-center">
-            BLOG
+            SIMPLE POSTS BLOG
           </div>
         </div>
         <div className="grid grid-cols-3">
