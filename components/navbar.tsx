@@ -10,12 +10,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full h-14 mb-2 flex justify-between items-center shadow-md sticky top-0 bg-amber-500">
-      <a onClick={changeCookie} className="cursor-pointer uppercase text-amber-900 font-bold p-2 ml-10 sticky">
+    <div className="w-full h-14 mb-2 flex justify-between items-center shadow-md sticky top-0 bg-stone-500">
+      <a onClick={changeCookie} className="cursor-pointer uppercase text-white font-bold p-2 ml-10 sticky">
         posts
       </a>
       <div className="ml-2 flex flex-row">
-        <div className="text-amber-100 p-2 mr-10 bg-amber-600 hover:bg-amber-700 rounded-lg cursor-pointer sticky duration-100">
+        <div className="text-white p-2 mr-10 bg-stone-600 hover:bg-stone-700 rounded-lg cursor-pointer sticky duration-100">
           <Link href="/new">
             Add new posts
           </Link>

@@ -6,11 +6,11 @@ const TodoList = ({ data }: { data: IItem[] }) => {
     return (
       <>
         <div className="m-2 text-4xl font-bold flex flex-col">
-          <div className="m-2 text-2xl text-amber-800 font-bold text-center">
+          <div className="m-2 text-2xl text-stone-700 font-bold text-center">
             BLOG
           </div>
         </div>
-        <div>
+        <div className="grid grid-cols-3">
           {data
             ? data.map((item) => <Card data={item} key={item.id} />)
             : "Failed fetch data"}
