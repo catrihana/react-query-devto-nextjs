@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className="w-full h-14 mb-2 flex justify-between items-center shadow-md sticky top-0 bg-stone-500">
-      <a onClick={changeCookie} className="cursor-pointer uppercase text-white font-bold p-2 ml-10 sticky">
+      <a onClick={changeCookie} className="cursor-pointer uppercase hover:text-stone-200 text-white font-bold p-2 ml-10 sticky">
         posts
       </a>
       <div className="ml-2 flex flex-row">
